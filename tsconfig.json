@@ -9,6 +9,7 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "outDir": "build",
     "forceConsistentCasingInFileNames": true,
   },
   "exclude": [

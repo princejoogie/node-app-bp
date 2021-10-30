@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node src/index.ts",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "start": "node build/index.js",
+    "build": "tsc",
     "prepare": "husky install"
   },
   "devDependencies": {
@@ -21,5 +23,8 @@
   "lint-staged": {
     "*.{js,ts}": "eslint --cache --fix",
     "*.{js,ts,md}": "prettier --write"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.14"
   }
 }
