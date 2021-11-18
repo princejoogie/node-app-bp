@@ -11,8 +11,13 @@
     "skipLibCheck": true,
     "outDir": "dist",
     "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "isolatedModules": true
   },
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "include": [
+    "src/**/*.ts"
+  ],
 }
